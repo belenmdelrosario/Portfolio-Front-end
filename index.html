@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Belén M R MENDOZA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">BM</a>
+            </div>
+            <nav id="nav"> 
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#resume" onclick="seleccionar()">RESUME</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+
+                    <!--user menu-->
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="usermenu">
+                         <span class="login">
+                           <a href="#"> <i class="fa-solid fa-right-to-bracket"></i></a>
+                           </span>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="images/copy.jpg" alt="">
+            </div>
+            <h1>BELÉN MILAGRO DEL ROSARIO MENDOZA</h1>
+            <h2>FULL STACK WEB DEVELOPER</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-regular fa-at"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--SECCION SOBRE MI section#sobremi.sobremi-->
+    <section id="sobremi" class="sobremi">
+       <div class="contenido-seccion">
+        <h2> Sobre Mí</h2>
+        <p><span>Hola, soy Belén.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo praesentium enim autem? Eveniet animi illo repudiandae, aut fugit, ad sapiente iste velit nisi ipsa nemo, est facere atque doloremque.</p>
+
+
+
+        <div class="fila">
+            <!--datos personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Fecha de nacimiento</strong>
+                        07-12-1999
+                    </li>
+                    <li>
+                        <strong>Nacionalidad</strong>
+                        Argentina
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +54 343 474 6002
+                    </li>
+                    <li>
+                        <strong>E-mail</strong>
+                        belenmdelrosario@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Paraná, Entre Ríos
+                    </li>
+                    <li>
+                        <strong>Disponibilidad</strong>
+                        FULL TIME
+                    </li>
+                </ul>
+
+
+            </div>
+
+            <!--intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+       </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technical skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>PhotoShop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Microsoft Office</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                
+                </div>
+
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skills">
+                        <span>Comunicación y Oratoria</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Team Work</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Responsabilidad y Compromiso</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--SECCION R E S U M E-->
+    <section id="resume" class="resume">
+        <div class="contenido-seccion">
+            <h2>Resume</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izquierda">
+                        <h4>Abogacía</h4>
+                        <span class="casa"> Univerdidad Nacional del Litoral</span>
+                        <span class="fecha">2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conector">
+                            <div class="circulo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Abogacía</h4>
+                        <span class="casa"> Univerdidad Nacional del Litoral</span>
+                        <span class="fecha">2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conector">
+                            <div class="circulo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Abogacía</h4>
+                        <span class="casa"> Univerdidad Nacional del Litoral</span>
+                        <span class="fecha">2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conector">
+                            <div class="circulo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Abogacía</h4>
+                        <span class="casa"> Univerdidad Nacional del Litoral</span>
+                        <span class="fecha">2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conector">
+                            <div class="circulo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item izquierda">
+                        <h4>Abogacía</h4>
+                        <span class="casa"> Univerdidad Nacional del Litoral</span>
+                        <span class="fecha">2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conector">
+                            <div class="circulo">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Profesional</h3>
+                    <div class="item derecha">
+                        <h4>Vendedora de Salón</h4>
+                        <span class="casa"> Nombre de compañia</span>
+                        <span class="fecha">2018-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item derecha">
+                        <h4>Vendedora de Salón</h4>
+                        <span class="casa"> Nombre de compañia</span>
+                        <span class="fecha">2018-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item derecha">
+                        <h4>Vendedora de Salón</h4>
+                        <span class="casa"> Nombre de compañia</span>
+                        <span class="fecha">2018-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item derecha">
+                        <h4>Vendedora de Salón</h4>
+                        <span class="casa"> Nombre de compañia</span>
+                        <span class="fecha">2018-2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quas animi suscipit quibusdam modi, maiores et necessitatibus ut ullam laudantium eligendi fuga est a quasi error voluptate debitis quisquam cupiditate!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="images/AOL-symbol.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="images/head.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="images/law.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="images/languages.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="images/plume and paper.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="images/hands.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="images/descarga.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--SECCION CONTACTO ULTIMA-->
+
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--formulario-->
+            <div class="col">
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="text" placeholder="Número telefónico">
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Asunto">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-thin fa-inbox-in"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!--MAPA-->
+            <div class="col">
+                <img src="images/ubication.PNG" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                               Paraná, Entre Ríos, Argentina, CP 3100.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Contactate: +54 343 474 6002.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Correo electrónico: belenmdelrosario@gmail.com
+                        </li>
+                        
+
+                    </ul>
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-regular fa-at"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
